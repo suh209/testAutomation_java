@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BackEnd">
+<test name="key1" preserve-order="true">
+<parameter name = "session_key" value = "key1" />
+<groups>
+	<run>
+		<include name="all_test" />
+	</run>
+</groups>
+<classes>
+	<class name="cellos.bigdata.mapr.ra.tests.RaBackEnd">
+	</class>
+</classes>
+</test>
+
+<!-- <test name="key2" preserve-order="true">
+<parameter name = "session_key" value = "key2" />
+<groups>
+	<run>
+		<include name="test" />
+	</run>
+</groups>
+<classes>
+	<class name="backend.classes.SessionKey1">
+	</class>
+</classes>
+</test>
+
+<test name="key3" preserve-order="true">
+<parameter name = "session_key" value = "key3" />
+<groups>
+	<run>
+		<include name="test" />
+	</run>
+</groups>
+<classes>
+	<class name="backend.classes.SessionKey1">
+	</class>
+</classes>
+</test>
+
+<test name="key4" preserve-order="true">
+<parameter name = "session_key" value = "key4" />
+<groups>
+	<run>
+		<include name="test" />
+	</run>
+</groups>
+<classes>
+	<class name="backend.classes.SessionKey1">
+	</class>
+</classes>
+</test>
+
+<test name="key5" preserve-order="true">
+<parameter name = "session_key" value = "key5" />
+<groups>
+	<run>
+		<include name="test" />
+	</run>
+</groups>
+<classes>
+	<class name="backend.classes.SessionKey1">
+	</class>
+</classes>
+</test>
+ -->
+</suite>
+

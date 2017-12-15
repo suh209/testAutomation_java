@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RAregression">
+<test name="sanityTestWithFF" preserve-order="true">
+<parameter name = "browserType" value = "firefox" />
+<groups>
+	<run>
+		<include name="all_tests" />
+	</run>
+</groups>
+<classes>
+	<class name="cellos.bigdata.mapr.ra.tests.ZoomdataUI">
+	</class>
+</classes>
+</test>
+
+<!-- <test name="sanityTestWithChrome" preserve-order="true">
+<parameter name = "browserType" value = "chrome" />
+<groups>
+	<run>
+		<include name="all_user" />
+	</run>
+</groups>
+<classes>
+	<class name="test.classes.BasicSanityCheck">
+	</class>
+</classes>
+</test> -->
+</suite>
+
